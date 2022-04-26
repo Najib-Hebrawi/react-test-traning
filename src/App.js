@@ -2,6 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+
+const a=2;
+const b=2;
+
+
+
   return (
     <div className="App">
       <header className="App-header">
@@ -24,6 +31,11 @@ function App() {
           <li>banana</li>
           <li>orange</li>
         </ul>
+
+        <h1 data-testid="test1">Hello Najib</h1>
+
+        <span title="sum">{a+b}</span>
+
 
 
       </header>
